@@ -1,0 +1,13 @@
+[package]
+name = "translate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fluent-bundle = "0.15.2"
+intl-memoizer = "0.5.1"
+thiserror = "1.0.58"
+tracing = "0.1.40"
+unic-langid = "0.9.4"
